@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Task Manager</h1>
+
+<input id="taskInput" placeholder="Enter task">
+
+<button onclick="addTask()">Add</button>
+
+
+<div class="filters">
+
+<button onclick="filterTasks('all')">All</button>
+
+<button onclick="filterTasks('active')">Active</button>
+
+<button onclick="filterTasks('done')">Completed</button>
+
+</div>
+
+
+<ul id="list"></ul>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
